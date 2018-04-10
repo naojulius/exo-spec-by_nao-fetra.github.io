@@ -42,7 +42,8 @@ describe "#translate" do
   end
 
   it "translates a word beginning with three consonants" do
-    expect(translate("three")).to eq("eethray")
+    s =translate("three")
+    expect(s).to eq("eethray")
   end
 
   it "counts 'sch' as a single phoneme" do

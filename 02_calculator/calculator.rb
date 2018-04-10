@@ -23,7 +23,7 @@
         return i * j
     end
 
-    def multiply_several_numbers(e,f,g)
+    def multiply2(e,f,g)
         return e * f * g
     end
 
@@ -31,7 +31,7 @@
         return l ** k
     end
 
-    def factoriel(g)
+    def factorial(g)
         for n in 1..g
             n *=g
         end
